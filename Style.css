@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;900&family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@500&display=swap');
+
+:root{ 
+    font-family: 'Playfair Display', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Roboto',sans-serif;
+    font-family: #3c393d;
+    font-family: #2b2b2b;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Quicksand'
+
+}
+    
+body {
+    line-height: 1.4;
+    color: var(#3c393d);
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+.container
+{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 1.8rem;
+}
+
+.Main{
+    min-height: 100vh;
+    background: linear-gradient(rgba(100, 4, 4, 0.4),rgba(88, 87, 87, 0.3)), 
+    url(TravelMainPage.jpg) center/cover no-repeat fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+
+}
+.nbar{
+    background: rgba(0,0,0,0.6);
+    padding: 1rem;
+}
+.nbar .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.navmainpage{
+    color: #ffff;
+    font-size: 2rem;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Playfair Dislay';
+    letter-spacing: 5px; 
+}
+.navoptions{
+    padding: 0.8rem;
+    text-align:center;
+}
+.navoptions a{
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0.6rem 0.1rem;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    letter-spacing: 4px;
+
+}
+.navoptions a:hover{
+    opacity: 0.7;
+}
+
+.banner{
+    
+    flex:1;
+    display:flex;
+    
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+    color: #ffff;
+    
+}
+
+.bannertitle{
+    font-size: 3rem;
+    font-family: 'Playfair Display';
+
+}
+
+.bannertitle span{
+    font-family: 'Playfair Display';
+    color: #2b2b2b;
+}
+
+.banner p{
+    padding: 1rem 0 2rem 0;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    font-family: 'Roboto';
+    opacity: 0.75;
+}
+.title{
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.title h2{
+    font-family: 'Playfair Display';
+    font-size: 2.4rem;
+}
+.title p{
+    text-transform: uppercase;
+    padding: 0.6rem 0;
+
+}
+
+
+.about{
+     padding: 6rem;
+    }
+
+.about-text{
+
+    margin: 2rem;
+    padding: 1px;
+    background-color:lightgoldenrodyellow;
+    align-items: ;
+    
+}
+.about-text  p{
+    font-size: 1.1rem;
+    padding: 1px;
+    opacity: 0.8;
+    
+   
+}
+.about-content p{
+    font-family: 'Quicksand';
+    text-align: center;
+}
+
+.lists {
+        padding: 50px;
+        font-size: 1.5rem;
+        
+        ;
+   
+    }
+
+.title1{
+    text-align: center;
+    padding: 4rem;
+    
+}
+.title1 h1{
+    font-family: 'Playfair Display';
+    font-size: 2.4rem;
+    padding: 2rem;
+}
+   
+.title1 p{
+    text-transform: uppercase;
+     font-size: 1.2rem;
+    
+
+}
+
+footer {
+    background: #2b2b2b;
+    padding: 0.3rem ;
+
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+    
+}
+
+.contact a{
+    
+    border: 2px solid #fff;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: 5px;
+    
+    
+}
+
